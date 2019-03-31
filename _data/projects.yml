@@ -1,29 +1,25 @@
 - id: 2
-  title: Tic tac toe
-  url: https://tic-or-treat.herokuapp.com/
-  github_url: https://github.com/nyc-bobolinks-2016/tic_or_treat
-  description: A simple tic-tac-toe game allowing both registered and unregistered users to play against a computer. Logged-in users have the benefit of viewing various statistics about their past games and resuming unfinished games.
+  title: Asset & Activity Map
+  url: https://llog.maps.arcgis.com/apps/View/index.html?appid=2bb232ec9ec3483e9f1ce3575478a52a
+  # url: http://arcg.is/L0yyr
+  github_url:
+  description:  A custom map application built from the ground up using esri's ArcGIS tools for developers to showcase the company's assets and activity in the Gulf of Mexico.
   technologies: [
                   html5-plain,
-                  css3-plain-wordmark
+                  css3-plain-wordmark,
                   javascript-plain,
-                  react-original,
-                  ruby-plain,
-                  rails-plain,
-                  postgresql-plain,
-                  heroku-original
                 ]
-  cover: /assets/images/project_covers/tic-tac-toe-cover.jpg
+  cover: /assets/images/project_covers/llog-activity-map-cover.png
   images: [
-    '/assets/images/project_images/tic_tac_toe/tictactoe1.png',
+    '/assets/images/project_images/llog/llogactivitymap1.png',
     '/assets/images/project_images/tic_tac_toe/tictactoe2.png',
     '/assets/images/project_images/tic_tac_toe/tictactoe3.png'
   ]
 
 - id: 3
   title: Stack Overflow Clone
-  url: https://dbc-hackoverflow.herokuapp.com/
-  github_url: https://github.com/wvicioso/hackoverflow
+  url: https://www.docpat.pro/
+  github_url: https://github.com/gfxdigital/docpat
   description: A standard discussion board app that's an attempt at a very simple version of the popular programming platform <a href='stackoverflow.com'>StackOverflow</a>. It allows users to ask questions, give answers and make comments as well as vote up or down on each of the above.
   technologies: [
                   html5-plain,
@@ -40,16 +36,18 @@
     '/assets/images/project_covers/hack-overflow-cover.png'
   ]
 - id: 4
-  title: ShootThingsGame
-  url: https://levytsroman.github.io/shootThingsGame/
-  github_url: https://github.com/LevytsRoman/shootThingsGame
-  description: A small javaScript browser game, featuring a red plane (player) and an unhealthy onslaught of enemy planes flying over a pictureque rendering of my favorite planet (Earth) in MS Paint.
+  title: Vintage Karr
+  url: http://vintage-karr.herokuapp.com/
+  github_url: https://github.com/gfxdigital/vintage-karr
+  description: A Ruby-on-Rails app that allows users to search for cars, make bookings, put up their cars for rent and keep track of earnings. It is based on a clone of the popular website <a href='https://www.airbnb.com' target='blank'>Airbnb</a>.
+
+  # description: A small javaScript browser game, featuring a red plane (player) and an unhealthy onslaught of enemy planes flying over a pictureque rendering of my favorite planet (Earth) in MS Paint.
   technologies: [
                   html5-plain,
                   css3-plain-wordmark,
                   javascript-plain
                 ]
-  cover: /assets/images/project_covers/shoot-things-game-cover.png
+  cover: /assets/images/project_covers/vintage-karr-cover.png
   images: [
     '/assets/images/project_covers/shoot-things-game-cover.png'
   ]
