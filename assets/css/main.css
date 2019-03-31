@@ -542,7 +542,7 @@ i {
   margin-top: 50px; }
 
 body {
-  background-color: #fcf5c7;
+  background-color: ##F3F7FB;
   min-height: 100%;
   min-width: 300px; }
 
@@ -744,14 +744,14 @@ button {
   height: 45px;
   line-height: 45px;
   width: 100%;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.8px;
-  color: #292929;
-  border: 1px #292929 solid !important;
-  border-radius: 3px;
+  color: #FFFFFF;
+  border: 0.25px #393e46 solid !important;
+  border-radius: 30px;
   outline: 0;
   overflow: hidden;
-  background: none;
+  background: #4264FB;
   z-index: 1;
   cursor: pointer;
   transition: 0.2s ease-in;
@@ -769,12 +769,12 @@ button:focus {
 
 button.fill:hover {
   background-color: transparent;
-  color: #f9f0ae; }
+  color: #FFFFFF; }
 
 button.fill:before {
   content: "";
   position: absolute;
-  background: #292929;
+  background: #393e46;
   bottom: 0;
   left: 0;
   right: 0;
@@ -799,7 +799,9 @@ button.fill:hover:before {
   font-size: 1.1rem; }
 
 .cover {
-  background-color: #f9f0ae;
+  background-color: #FFFFFF;
+  border-radius: 8px !important;
+  /*box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10) !important;*/
   width: 40%;
   height: 100%;
   margin: 0;
@@ -811,10 +813,13 @@ button.fill:hover:before {
 
 .project {
   width: 90%;
-  height: 400px;
+  height: 300px;
   margin: auto;
   margin-top: 40px;
-  box-shadow: 0 0 1000px 10px black inset; }
+  border-radius: 8px !important;
+  box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10) !important;
+  /*box-shadow: 0 0 1000px 10px black inset; */
+}
 
 .skill_icon {
   color: #fcf5c7;
